@@ -10,7 +10,7 @@ RUN sudo apt-get -y install lib32stdc++6 lib32z1
 
 # Install git
 RUN apt-get -y install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev \
-    $$ apt-get -y install git
+    && apt-get -y install git
 
 # Install Java8
 RUN apt-get install -y software-properties-common curl \
